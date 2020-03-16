@@ -4,7 +4,7 @@
   "homepage": "https://www.nativescript.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativeScript/NativeScript"
+    "url": "https://github.com/VoiceThread/NativeScript"
   },
   "license": "Apache-2.0",
   "devDependencies": {

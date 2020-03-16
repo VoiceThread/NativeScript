@@ -764,7 +764,7 @@ export class ListViewTest extends UITest<ListView> {
 
         listView.items = MANY_ITEMS;
         listView.scrollToIndex(-1);
-        TKUnit.wait(0.1);
+        TKUnit.wait(0.2);
 
         var firstNativeElementVisible = this.checkItemVisibleAtIndex(listView, 0);
         TKUnit.assertEqual(firstNativeElementVisible, true, "first element is visible");        
