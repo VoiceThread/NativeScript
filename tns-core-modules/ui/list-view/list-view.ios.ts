@@ -128,7 +128,7 @@ class UITableViewDelegateImpl extends NSObject implements UITableViewDelegate {
         const cell = <ListViewCell>tableView.cellForRowAtIndexPath(indexPath);
         const owner = this._owner.get();
         if (owner) {
-            notifyForItemAtIndex(owner, cell, cell.view, ITEMTAP, indexPath);
+            notifyForItemAtIndex(owner, cell, (cell ? cell.view : null), ITEMTAP, indexPath);
         }
         return indexPath;
     }
