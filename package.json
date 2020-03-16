@@ -1,7 +1,7 @@
 {
-  "name": "NativeScript",
-  "description": "Telerik NativeScript Core Modules",
-  "homepage": "https://www.nativescript.org",
+  "name": "VTNativeScript",
+  "description": "Telerik NativeScript Core Modules / VoiceThread modifications",
+  "homepage": "https://www.voicethread.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/VoiceThread/NativeScript"
